@@ -48,4 +48,4 @@ npm run dev
 
 5. O aplicativo será aberto no seu navegador padrão no endereço:
 
-http://localhost:5173/
+http://localhost:5173
