@@ -26,4 +26,16 @@ const DadosContainer = styled.div`
   .dado {
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    margin-top: 24px;
+
+    img {
+      width: 120px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
 `;

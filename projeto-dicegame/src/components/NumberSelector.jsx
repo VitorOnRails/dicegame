@@ -22,11 +22,11 @@ const numberSelectorHandler = (number) => {
 export default NumberSelector;
 
 const NumberSelectorContainer = styled.div`
-    
+
     display: flex;
     align-items: end;
     flex-direction: column;
-    
+
     .flex  {
         display: flex;
         gap: 24px;
@@ -40,6 +40,18 @@ const NumberSelectorContainer = styled.div`
     .error {
         color: red;
     }
+
+    @media (max-width: 768px) {
+        align-items: center;
+
+        .flex {
+            gap: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
 `;
 
 const NumbersContainer = styled.div`
@@ -52,4 +64,10 @@ const NumbersContainer = styled.div`
     font-weight: bold;
     background-color: ${(props) => (props.isSelected ? "#000000" : "#FFFFFF")};
     color: ${(props) => (!props.isSelected ? "#000000" : "#FFFFFF")};
+
+    @media (max-width: 768px) {
+        height: 44px;
+        width: 44px;
+        font-size: 18px;
+    }
 `;
