@@ -43,9 +43,12 @@ const NumberSelectorContainer = styled.div`
 
     @media (max-width: 768px) {
         align-items: center;
+        width: 100%;
 
         .flex {
             gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
 
         p {

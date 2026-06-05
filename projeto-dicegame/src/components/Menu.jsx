@@ -53,9 +53,9 @@ const ContainerMenu = styled.div`
       width: 140px;
     }
 
-    .conteudo 
-    h1 {
-      font-size: 36px;
+    .conteudo h1 {
+      font-size: 28px;
+      word-break: break-word;
     }
   }
 `;
